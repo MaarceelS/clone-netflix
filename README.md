@@ -14,7 +14,7 @@ Este repositório apresenta o **Clone da Netflix**, um projeto de estudo focado 
 - Estilo visual fiel ao da Netflix, com botões customizados, ícones e avatar  
 - Implementação de **carrossel horizontal com rolagem suave** e ocultação da barra de rolagem  
 
-## 📈 O que será implementado futuramente
+## 📚 Próximos estudos
 
 - Responsividade com media queries  
 - Interatividade com JavaScript (ex: menus, carrossel dinâmico, player de vídeo)
