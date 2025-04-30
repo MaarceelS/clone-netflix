@@ -1,5 +1,7 @@
 # 🎬 Clone da Netflix - Treinamento com HTML e CSS
 
+![Preview do projeto](https://seu-site.com/assets/screenshot.png)
+
 Este repositório apresenta o **Clone da Netflix**, um projeto de estudo focado em construção de interfaces visuais utilizando HTML e CSS. O layout foi cuidadosamente reproduzido com base em um modelo disponível no Figma, buscando fidelidade visual e boas práticas de estruturação.
 
 > 🎨 **O design foi baseado em um protótipo no Figma**, permitindo praticar a interpretação e a aplicação de layouts reais na codificação.
