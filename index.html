@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <header>
+        <div class="header__left">
+            <img class="header__logo" src="images/footer/NetflixLogo.png" alt="Netflix Logo">
+            <p class="header__text__home">Home</p>
+            <p class="header__text">TV Shows</p>
+            <h5 class="header__text">Movies</h5>
+            <h5 class="header__text">New & Popular</h5>
+            <h5 class="header__text">My List</h5>
+            <h5 class="header__text">Browse by Languages</h5>
+        </div>
+        <div class="header__right">
+            <button class="search"><img src="images/footer/Search.png" alt="Search" width="36" height="28"></button>
+            <h5 class="header__text">Kids</h5>
+            <button class="bell"><img src="images/footer/Bell.png" alt="Bell" width="32" height="30"></button>
+            <button class="avatarphoto"><img src="images/footer/Avatar.png" alt="Avatar Photo" width="48" height="48"></button>
+            <button class="arrow"><img src="images/footer/Arrow.png" alt="Arrow" width="15" height="7"></button>
+        </div>
+    </header>
+    <main>
+        <div class="apresentacao">
+            <div class="apresentacao__logo">
+                <img src="images/main/N.png" alt="N Series" width="39" height="64">
+                <h1 class="apresentacao__logo_SERIES"> S E R I E S</h1>
+            </div>
+            <img src="images/main/ShowLogo.png" alt="Show Logo Serie" width="878" height="242">
+            <div class="apresentacao__top1">
+                <img src="images/main/Top10.png" alt="Serie top10" width="44" height="44">
+                <div class="apresentacao__top1__h1">#1 in TV Shows Today</div>
+            </div>
+            <div class="apresentacao__p">Determined to protect a young patient who escaped a mysterious cult, a psychiatrist takes the girl in, putting her own family — and life — in danger.</div>
+            <div class="apresentacao__player">
+                <button class="btn__player"> 
+                    <img src="images/main/Polygon.png" alt="Play" width="40" height="42"> Play
+                </button>
+                <button class="btn__info">
+                    <img src="images/main/Infobtn.png" alt="Info Button" width="40" height="38.947px"> More Info
+                </button>
+            </div>
+        </div>
+        
+        <div class="popular_netflix__text">Popular on Netflix</div>
+        <div class="popular_netflix">
+            
+            <ul class="popular_netflix__list">
+                <li><img src="images/main/popular/locke.png" alt="Locke & Key"></li>
+                <li><img src="images/main/popular/jojo.png" alt="Jojo's bizarre adventure"></li>
+                <li><img src="images/main/popular/gooddoctor.png" alt="Good Doctor"></li>
+                <li><img src="images/main/popular/woodstock.png" alt="Trainwreck: woodstock'99"></li>
+                <li><img src="images/main/popular/residentevil.png" alt="Resident Evil"></li>
+                <li><img src="images/main/popular/brooklyn.png" alt="Brooklyn Nine-Nine"></li>
+                <li><img src="images/main/popular/Card.png" alt="Card"></li>
+            </ul>
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <script>
+        const scrollContainer = document.querySelector('.popular_netflix');
+
+        scrollContainer.addEventListener('wheel', (evt) => {
+            evt.preventDefault(); // Impede o scroll vertical
+            scrollContainer.scrollLeft += evt.deltaY * 3; // Controla a velocidade
+        });
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('fonts/netflix-sans-font/NetflixSans-Regular.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+
+header{
+    /* margin: 0 5%; */
+    color: #DADADA;
+    height: 102px;
+    /* padding: 31px 23px 32px 90px; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-family: 'Netflix Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.44px;
+    
+
+}
+.header__logo{
+    padding: 0px 33px 0 0;
+    width: 139px;
+    height: 38.176px;
+    flex-shrink: 0;
+}
+.header__text__home{
+    color: #fff;
+    cursor: pointer;
+}
+.header__text{
+    cursor: pointer;
+}
+.header__left{
+    gap: 28px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.header__right{
+    color: #fff;
+    gap: 33px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+.search{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.bell{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.avatarphoto{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.arrow{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+body{
+    margin: 0 7%;
+    background: 
+        
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 1%, rgba(14,14,14,0) 15%),
+        linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+        url('images/body/background.png')  no-repeat center center;;
+    color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+    background-color: #000000;
+}
+.apresentacao{
+    margin: 100px 0;
+    gap: 33px;
+    width: 891px;
+    height: 663px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+.apresentacao__logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+.apresentacao__logo_SERIES{
+    color: #B9BBB9;
+    font-family: "Netflix Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 7px;
+}
+.apresentacao__top1{
+    align-items: center;
+    display: flex;
+    font-family: "Netflix Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 5px;
+}
+
+.apresentacao__p{
+    color: #FFF;
+
+    font-family: "Netflix Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.apresentacao__player{
+    display: flex;
+    gap: 19px;
+}
+.btn__player{
+    box-sizing: border-box;
+    padding: 0 40px 0 40px;
+    border-radius: 5px;
+    font-family: "Netflix Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.4px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 211px;
+    height: 77px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.btn__info{
+    box-sizing: border-box;
+    padding: 0 40px 0 40px;
+    border-radius: 5px;
+    font-family: "Netflix Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #515451;
+    color: #FFFFFF;
+    width: 287px;
+    height: 77px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+.popular_netflix__text{
+    padding: 0 0 20px 0;
+    color: #E5E5E5;
+    font-family: "Netflix Sans ";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.popular_netflix{
+    background-color: transparent;
+    display: flex;  
+    gap: 20px;
+    overflow-x: auto; /* Permite rolagem horizontal */
+    white-space: nowrap;
+    scroll-behavior: smooth; /* Suaviza a rolagem */
+     /* Esconder a barra de rolagem */
+     scrollbar-width: none;  /* Firefox */
+     -ms-overflow-style: none;  /* Internet Explorer e Edge */
+ }
+ 
+ .popular_netflix::-webkit-scrollbar {
+     display: none;  /* Chrome, Safari e Edge */
+}
+
+.popular_netflix__list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.popular_netflix__list img {
+    user-select: none; /* Evita seleção de texto */
+    -webkit-user-drag: none; /* Para WebKit (Chrome, Edge) */
+    -moz-user-select: none;   /* Para Firefox */
+    -ms-user-select: none;    /* Para IE/Edge */
+    border-radius: 5px; 
+    width: 389px;
+    height: 219px;
+    cursor: pointer;
+}
