@@ -10,7 +10,7 @@ Este repositório apresenta o **Clone da Netflix**, um projeto de estudo focado 
 
 - Estrutura semântica em HTML  
 - Estilização com CSS puro  
-- Uso de **fontes personalizadas**   
+- Uso de **fontes personalizadas**   com `@font-face`
 - Construção de **layouts com Flexbox**  
 - Aplicação de **backgrounds em camadas**, com imagem e gradientes  
 - Estilo visual fiel ao da Netflix, com botões customizados, ícones e avatar  
