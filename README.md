@@ -14,7 +14,9 @@ Este repositório apresenta o **Clone da Netflix**, um projeto de estudo focado 
 - Construção de **layouts com Flexbox**  
 - Aplicação de **backgrounds em camadas**, com imagem e gradientes  
 - Estilo visual fiel ao da Netflix, com botões customizados, ícones e avatar  
-- Implementação de **carrossel horizontal com rolagem suave** e ocultação da barra de rolagem  
+- Implementação de **carrossel horizontal com rolagem suave** e ocultação da barra de rolagem
+
+- > ⚠️ **Este projeto não possui responsividade.** O objetivo é dominar o HTML e o CSS estático antes de avançar para técnicas de design responsivo.
 
 ## 📚 Próximos estudos
 
